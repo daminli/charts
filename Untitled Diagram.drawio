@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-03T09:48:18.838Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JPgNmfqUTr52sP0SQHJ0" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-05T08:02:12.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="JSxej3NXHPWkpckCJZjc" version="12.1.9" type="github" pages="2">
   <diagram name="数据准备" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2090" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -115,11 +115,77 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="soCKKxfmZ7NhsK_nBnD1" name="模型输入">
+  <diagram id="soCKKxfmZ7NhsK_nBnD1" name="流程图">
     <mxGraphModel dx="1024" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="P91cjPpShCtE_ZG0dUON-0"/>
         <mxCell id="P91cjPpShCtE_ZG0dUON-1" parent="P91cjPpShCtE_ZG0dUON-0"/>
+        <mxCell id="xernIph8YnUiOjCcG3fk-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-0" target="xernIph8YnUiOjCcG3fk-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-0" value="加载计划配置数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="270" y="310" width="120" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-1" target="xernIph8YnUiOjCcG3fk-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-1" target="xernIph8YnUiOjCcG3fk-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-1" target="xernIph8YnUiOjCcG3fk-20">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-1" value="获取最细的计划维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="270" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-5" value="根据最细的维度&lt;br&gt;生成销量变量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="430" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-3" value="加载最细粒度的系数指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="110" y="540" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-7" target="xernIph8YnUiOjCcG3fk-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-7" target="xernIph8YnUiOjCcG3fk-10">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-7" value="加载用户覆盖&lt;br&gt;计划数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="850" y="290" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-10" value="用户定义目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="960" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-8" target="xernIph8YnUiOjCcG3fk-25">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-8" target="xernIph8YnUiOjCcG3fk-27">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-8" value="用户定义系数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="710" y="430" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-27" value="上下界" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="650" y="554" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-25" value="绝对值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="800" y="554" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-19" value="维度" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="710" y="670" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-20" target="xernIph8YnUiOjCcG3fk-22">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-20" value="获取趋势评估的&lt;br&gt;维度和目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="270" y="550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-22" value="生成趋势评估&lt;br&gt;软约束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="430" y="550" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-24" value="用户定义系数" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="560" y="370" width="120" height="60" as="geometry"/>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
