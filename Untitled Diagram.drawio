@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-05T09:24:34.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="tlFQPRO9a0rGPy9FdeT6" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-06T13:11:42.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="ths8N03lLOEN0gjbU3kG" version="12.1.9" type="github" pages="2">
   <diagram name="数据准备" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2090" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -161,6 +161,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-71" value="GMV&lt;br&gt;成本&lt;br&gt;周转" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xernIph8YnUiOjCcG3fk-48">
+          <mxGeometry x="-0.603" y="3" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-10" value="用户定义目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="960" y="430" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -185,14 +190,18 @@
         <mxCell id="xernIph8YnUiOjCcG3fk-25" value="绝对值" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="800" y="554" width="120" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="xernIph8YnUiOjCcG3fk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-20" target="xernIph8YnUiOjCcG3fk-22">
-          <mxGeometry relative="1" as="geometry"/>
+        <mxCell id="xernIph8YnUiOjCcG3fk-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-20" target="xernIph8YnUiOjCcG3fk-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="330" y="1060"/>
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="xernIph8YnUiOjCcG3fk-20" value="获取趋势评估的&lt;br&gt;维度和目标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+        <mxCell id="xernIph8YnUiOjCcG3fk-20" value="获取趋势评估的&lt;br&gt;维度和指标" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="270" y="550" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-22" value="生成趋势评估&lt;br&gt;软约束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
-          <mxGeometry x="430" y="550" width="120" height="60" as="geometry"/>
+          <mxGeometry x="430" y="1030" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-39" value="生成系数的约束" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="430" y="660" width="120" height="60" as="geometry"/>
@@ -201,24 +210,20 @@
           <mxGeometry x="430" y="910" width="120" height="60" as="geometry"/>
         </mxCell>
         <object label="" id="xernIph8YnUiOjCcG3fk-52">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-53" target="xernIph8YnUiOjCcG3fk-39">
-            <mxGeometry relative="1" as="geometry"/>
-          </mxCell>
-        </object>
-        <mxCell id="xernIph8YnUiOjCcG3fk-49" value="有无系数&lt;br&gt;统计数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
-          <mxGeometry x="670" y="650" width="80" height="80" as="geometry"/>
-        </mxCell>
-        <mxCell id="xernIph8YnUiOjCcG3fk-53" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
-          <mxGeometry x="620" y="680" width="40" height="20" as="geometry"/>
-        </mxCell>
-        <object label="" id="xernIph8YnUiOjCcG3fk-54">
-          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-49" target="xernIph8YnUiOjCcG3fk-53">
+          <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-49" target="xernIph8YnUiOjCcG3fk-39">
             <mxGeometry relative="1" as="geometry">
-              <mxPoint x="740" y="690" as="sourcePoint"/>
-              <mxPoint x="533" y="690" as="targetPoint"/>
+              <mxPoint x="620" y="690" as="sourcePoint"/>
             </mxGeometry>
           </mxCell>
         </object>
+        <mxCell id="xernIph8YnUiOjCcG3fk-69" value="Y" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xernIph8YnUiOjCcG3fk-52">
+          <mxGeometry x="-0.2233" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-49" value="有无系数&lt;br&gt;统计数据" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="670" y="650" width="80" height="80" as="geometry"/>
+        </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-55" value="不支持" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="490" y="740" width="120" height="60" as="geometry"/>
         </mxCell>
@@ -241,6 +246,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-70" value="Y" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xernIph8YnUiOjCcG3fk-65">
+          <mxGeometry x="-0.5881" y="2" relative="1" as="geometry">
+            <mxPoint as="offset"/>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-66" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#000000;" edge="1" parent="P91cjPpShCtE_ZG0dUON-1" source="xernIph8YnUiOjCcG3fk-61" target="xernIph8YnUiOjCcG3fk-64">
           <mxGeometry relative="1" as="geometry"/>
         </mxCell>
@@ -254,6 +264,9 @@
         </mxCell>
         <mxCell id="xernIph8YnUiOjCcG3fk-64" value="生成系数的值&lt;br&gt;=绝对值" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
           <mxGeometry x="430" y="810" width="120" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="xernIph8YnUiOjCcG3fk-74" value="&lt;h1&gt;趋势评估的维度和指标&lt;/h1&gt;&lt;p&gt;1.&amp;nbsp; 类目周销量&lt;/p&gt;&lt;p&gt;2. 类目每周销量占比&lt;/p&gt;&lt;p&gt;3. 类目平均体积&lt;/p&gt;&lt;p&gt;4. 类目周转天数&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="P91cjPpShCtE_ZG0dUON-1">
+          <mxGeometry x="70" y="710" width="230" height="190" as="geometry"/>
         </mxCell>
       </root>
     </mxGraphModel>
