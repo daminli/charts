@@ -1,4 +1,4 @@
-<mxfile host="www.draw.io" modified="2019-11-06T13:11:42.198Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="ths8N03lLOEN0gjbU3kG" version="12.1.9" type="github" pages="2">
+<mxfile host="www.draw.io" modified="2019-11-06T13:19:41.832Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36" etag="V3hhqKF5oZbHhB5vy40i" version="12.1.9" type="github" pages="2">
   <diagram name="数据准备" id="efa7a0a1-bf9b-a30e-e6df-94a7791c09e9">
     <mxGraphModel dx="2090" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="826" pageHeight="1169" background="#ffffff" math="0" shadow="0">
       <root>
@@ -161,7 +161,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="xernIph8YnUiOjCcG3fk-71" value="GMV&lt;br&gt;成本&lt;br&gt;周转" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xernIph8YnUiOjCcG3fk-48">
+        <mxCell id="xernIph8YnUiOjCcG3fk-71" value="GMV&lt;br&gt;成本&lt;br&gt;周转&lt;br&gt;等等" style="text;html=1;resizable=0;points=[];align=center;verticalAlign=middle;labelBackgroundColor=#ffffff;" vertex="1" connectable="0" parent="xernIph8YnUiOjCcG3fk-48">
           <mxGeometry x="-0.603" y="3" relative="1" as="geometry">
             <mxPoint as="offset"/>
           </mxGeometry>
