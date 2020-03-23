@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-03-23T11:43:44.757Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="DUDFRyUt22PqIe8gEUZj" version="12.8.9" type="github">
+<mxfile host="app.diagrams.net" modified="2020-03-23T12:20:39.564Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="cY1uTDqmqDPsfSCthOKf" version="12.8.9" type="github">
   <diagram id="tqqFPRVVThCWhQn9TKFU" name="Page-1">
-    <mxGraphModel dx="946" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1746" dy="1023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="BgEkeHLagG953XPaDO7L-3" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="-150" width="80" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BgEkeHLagG953XPaDO7L-3">
+          <mxGeometry width="80" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-2" value="HSF" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="BgEkeHLagG953XPaDO7L-3">
+          <mxGeometry x="13.333333333333332" y="200" width="53.33333333333333" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-20" value="路由脚本" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="BgEkeHLagG953XPaDO7L-3">
+          <mxGeometry x="6.666666666666666" y="14" width="66.66666666666666" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-7" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="-150" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-8" value="服务化" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="500" y="-200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-9" value="API网关" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="-200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-10" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="-150" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-11" value="算法库" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="230" y="-200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-12" value="模型训练" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-200" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-13" value="特征工程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-350" y="-190" width="60" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-14" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-140" y="-150" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-15" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-430" y="-150" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-730" y="-150" width="240" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-17" value="供应链数仓" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-660" y="-190" width="80" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-19" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BgEkeHLagG953XPaDO7L-18" target="BgEkeHLagG953XPaDO7L-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BgEkeHLagG953XPaDO7L-18" value="路由规则管理" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="-140" width="120" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
